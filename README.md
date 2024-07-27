@@ -330,6 +330,7 @@ GROUP BY
 
    
 -- 8. Account Activity Segmentation Count
+
 WITH ACTIVITY_SEGMENTS AS (
 SELECT 
 	    "CUSTOMER_ID",
