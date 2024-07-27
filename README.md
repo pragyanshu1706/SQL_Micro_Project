@@ -43,6 +43,7 @@ GROUP BY
 -- 4. overview of the closure percentages for different loan types by ownership type (Individual vs Joint Account) 
 
 -- Joint Account
+
 WITH TOTAL_LOANS AS (
 SELECT
 	"ACCOUNT_CATEGORY",
@@ -82,6 +83,7 @@ GROUP BY
 	3;
 
 -- Individual
+
 WITH TOTAL_LOANS AS (
 SELECT
 	"ACCOUNT_CATEGORY",
